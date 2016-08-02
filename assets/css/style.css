@@ -1,0 +1,74 @@
+body{
+    width: 100%;
+}
+a {
+    text-decoration: none !important;
+}
+.mega-logo-home {
+    width: 400px;
+    height: 400px;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*arrow*/
+.glyphicon-chevron-left {
+    font-size: 2.5em;
+    color: #337ab7;
+    position: fixed;
+    top: 49%;
+    left: 37%;
+}
+.glyphicon-chevron-right {
+    font-size: 2.5em;
+    color: #337ab7;
+    position: fixed;
+    top: 49%;
+    right: 37%;
+}
+.glyphicon-chevron-down {
+    font-size: 2.5em;
+    color: #337ab7;
+    position: fixed;
+    top: 73%;
+    right: 49%;
+}
+.glyphicon-chevron-up {
+    font-size: 2.5em;
+    color: #337ab7;
+    position: fixed;
+    top: 23%;
+    right: 49%;
+}
+
+/*arrow title*/
+.link-up {
+    font-size: 2.0em;
+    color: #BDCFCA;
+    position: fixed;
+    top: 19%;
+    right: 45%;
+}
+.link-down {
+    font-size: 2.0em;
+    color: #BDCFCA;
+    position: fixed;
+    top: 77%;
+    right: 46.5%;
+}
+.link-left {
+    font-size: 2.0em;
+    color: #BDCFCA;
+    position: fixed;
+    top: 49%;
+    left: 30%;
+}
+.link-right {
+    font-size: 2.0em;
+    color: #BDCFCA;
+    position: fixed;
+    top: 49%;
+    right: 27%;
+}
+
