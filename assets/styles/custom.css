@@ -1,61 +1,93 @@
-
-a {
-    text-decoration: none !important;
-}
-.wrapper {
-    background-color: red;
-    max-width: 700px;
-    max-height: 700px;
-    text-align: center;
-    /*margin: 0 auto;*/
-    /*padding: 5px;*/
-}
-.item {
-    background-color: white;
-    margin: 1px;
-    color: black;
-    text-align: center;
-    height: 100px;
-    /*width: 200px;*/
-    line-height: 100px;
+/* General */
+a,
+a:hover,
+a:active {
+    text-decoration: none;
 }
 
-/*Flexbox*/
 hr {
     color: #337ab7;
-;
 }
-.wrapper {
+
+/* Homepage */
+.container-flex {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
 }
-.item {
-    width: 210px;
-    height: 210px;
-}
-.item2 {
-    background-image: url(../images/Pfeil_Folgeseite_links_blau.svg);
-    /*z-index: -1;*/
-    transform: rotate(90deg);
-    background-repeat: no-repeat;
-    background-position: 100% .25em;
-    background-size: 11px 15px;
-}
-.mega-logo-home {
-    width: 210px;
-    height: 210px;
-}
-
-
-
-ul.list-navigation a {
+.container-flex a {
+    font-size: 20px;
     text-transform: uppercase;
-    margin-right: 10px;
-    color: #BDCFCA;
+    color: #bdcfca;
 }
-ul.list-navigation {
-    text-align: right;
+.container-flex a:hover,
+.container-flex a:active {
+    color: #337ab7;
+}
+.container-flex > div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.container-flex > div > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.container-flex .col-arrow-top {
+    padding-bottom: 20px;
+    align-self: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+.container-flex .col-arrow-top img {
     margin-top: 10px;
+}
+.container-flex .col-arrow-right {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    align-self: center;
+    justify-content: flex-start;
+}
+.container-flex .col-arrow-right img {
+    margin-right: 10px;
+}
+.container-flex .col-arrow-bottom {
+    padding-top: 20px;
+    align-self: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+.container-flex .col-arrow-bottom img {
+    margin-bottom: 10px;
+}
+.container-flex .col-arrow-left {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    align-self: center;
+    justify-content: flex-end;
+}
+.container-flex .col-arrow-left img {
+    margin-left: 10px;
+}
+.container-flex .logo {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation */
+ul.list-navigation {
+    margin-top: 10px;
+    text-align: right;
+}
+ul.list-navigation a {
+    margin-right: 10px;
+    text-transform: uppercase;
+    color: #BDCFCA;
 }
 li {
     background-image: url(../images/Pfeil_Folgeseite_links_grau.svg);
@@ -73,42 +105,7 @@ p {
 }
 
 
-/*********************index seite*******************************/
-
-/*arrow title*/
-.link-up {
-    transform: rotate(-90deg) !important;
-}
-.link-down {
-/*font-size: 2.0em;*/
-/*color: #BDCFCA;*/
-/*position: fixed;*/
-/*top: 77%;*/
-/*right: 46.5%;*/
-}
-.link-left {
-/*font-size: 1.5em;*/
-/*color: #BDCFCA;*/
-/*/!*position: fixed;*!/*/
-/*top: 49%;*/
-/*left: 30%;*/
-}
-.link-right {
-/*font-size: 2.0em;*/
-/*color: #BDCFCA;*/
-/*position: fixed;*/
-/*top: 49%;*/
-/*right: 27%;*/
-}
-
-
-/*.item5 {*/
-    /*width: 280px;*/
-    /*height: 280px;*/
-/*}*/
-
 /*Porträt seite*/
-
 .portraet-link {
     margin-left: 37px;
     font-size: 1.1em;
