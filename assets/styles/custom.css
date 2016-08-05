@@ -1,147 +1,158 @@
-body{
-    width: 100%;
-}
+
 a {
     text-decoration: none !important;
 }
-hr {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #337ab7;
-    background-color: #337ab7;
-    width: 100%;
-    margin-top: 280px;
+.wrapper {
+    background-color: red;
+    max-width: 700px;
+    max-height: 700px;
+    text-align: center;
+    /*margin: 0 auto;*/
+    /*padding: 5px;*/
+}
+.item {
+    background-color: white;
+    margin: 1px;
+    color: black;
+    text-align: center;
+    height: 100px;
+    /*width: 200px;*/
+    line-height: 100px;
 }
 
+/*Flexbox*/
+hr {
+    color: #337ab7;
+;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item {
+    width: 210px;
+    height: 210px;
+}
+.item2 {
+    background-image: url(../images/Pfeil_Folgeseite_links_blau.svg);
+    /*z-index: -1;*/
+    transform: rotate(90deg);
+    background-repeat: no-repeat;
+    background-position: 100% .25em;
+    background-size: 11px 15px;
+}
 .mega-logo-home {
-    width: 400px;
-    height: 400px;
-    position: fixed; /* or absolute */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 210px;
+    height: 210px;
 }
-/*arrow*/
-.glyphicon-chevron-left {
-    font-size: 2.5em;
-    color: #337ab7;
-    position: fixed;
-    top: 49%;
-    left: 37%;
+
+
+
+ul.list-navigation a {
+    text-transform: uppercase;
+    margin-right: 10px;
+    color: #BDCFCA;
 }
-.glyphicon-chevron-right {
-    font-size: 2.5em;
-    color: #337ab7;
-    position: fixed;
-    top: 49%;
-    right: 37%;
+ul.list-navigation {
+    text-align: right;
+    margin-top: 10px;
 }
-.glyphicon-chevron-down {
-    font-size: 2.5em;
-    color: #337ab7;
-    position: fixed;
-    top: 73%;
-    right: 49%;
+li {
+    background-image: url(../images/Pfeil_Folgeseite_links_grau.svg);
+    background-repeat: no-repeat;
+    background-position: 100% .25em;
+    background-size: 11px 15px;
+    padding-right: .6em;
+    margin-bottom: 25px;
 }
-.glyphicon-chevron-up {
-    font-size: 2.5em;
-    color: #337ab7;
-    position: fixed;
-    top: 23%;
-    right: 49%;
+p {
+    margin-bottom: 1px;
 }
+.zeile-abstand {
+    margin-bottom: 20px;
+}
+
+
+/*********************index seite*******************************/
 
 /*arrow title*/
 .link-up {
-    font-size: 2.0em;
-    color: #BDCFCA;
-    position: fixed;
-    top: 19%;
-    right: 45%;
+    transform: rotate(-90deg) !important;
 }
 .link-down {
-    font-size: 2.0em;
-    color: #BDCFCA;
-    position: fixed;
-    top: 77%;
-    right: 46.5%;
+/*font-size: 2.0em;*/
+/*color: #BDCFCA;*/
+/*position: fixed;*/
+/*top: 77%;*/
+/*right: 46.5%;*/
 }
 .link-left {
-    font-size: 2.0em;
-    color: #BDCFCA;
-    position: fixed;
-    top: 49%;
-    left: 30%;
+/*font-size: 1.5em;*/
+/*color: #BDCFCA;*/
+/*/!*position: fixed;*!/*/
+/*top: 49%;*/
+/*left: 30%;*/
 }
 .link-right {
-    font-size: 2.0em;
-    color: #BDCFCA;
-    position: fixed;
-    top: 49%;
-    right: 27%;
+/*font-size: 2.0em;*/
+/*color: #BDCFCA;*/
+/*position: fixed;*/
+/*top: 49%;*/
+/*right: 27%;*/
 }
 
-/*porträt style*/
-.mega-logo{
-    width: 200px;
-    height: 200px;
-    position: fixed; /* or absolute */
-    top: 5%;
-    right: 5%;
-}
-.link-header1 {
-    top: 60px;
-    font-size: 2.0em;
-    left: 83%;
-}
+
+/*.item5 {*/
+    /*width: 280px;*/
+    /*height: 280px;*/
+/*}*/
+
+/*Porträt seite*/
+
 .portraet-link {
-    font-size: 1.5em;
-    color: #337ab7;
-    position: fixed;
-    top: 60px;
-    right: 17%;
-}
-.link-header2 {
-    top: 110px;
-    font-size: 2.0em;
-    left: 83%;
+    margin-left: 37px;
+    font-size: 1.1em;
     color: #BDCFCA;
 }
 .leistungen-link {
-    font-size: 1.5em;
-    color: #BDCFCA;
-    position: fixed;
-    top: 110px;
-    right: 17%;
-}
-.link-header3 {
-    top: 160px;
-    font-size: 2.0em;
-    left: 83%;
+    margin-left: 6px;
+    font-size: 1.1em;
     color: #BDCFCA;
 }
 .referenzen-link {
-    font-size: 1.5em;
-    color: #BDCFCA;
-    position: fixed;
-    top: 160px;
-    right: 17%;
-}
-.link-header4 {
-    top: 210px;
-    font-size: 2.0em;
-    left: 83%;
+    margin-left: 6px;
+    font-size: 1.1em;
     color: #BDCFCA;
 }
 .kontakt-link {
-    font-size: 1.5em;
+    margin-left: 37px;
+    font-size: 1.1em;
     color: #BDCFCA;
-    position: fixed;
-    top: 210px;
-    right: 17%;
 }
-.link-active:active {
+/*Leistungen Seite*/
+ul.leistungen-feile li{
+    background-image: url(../images/Pfeil_Folgeseite_rechts_blau.svg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 11px 15px;
+    padding-left: .6em;
+    margin-bottom: 25px;
+    text-align: left;
+}
+.leistungen{
     color: #337ab7;
 }
-
+.leistung-bilder {
+    width: 650px;
+    height: 440px;
+}
+/*Referenzen*/
+.schrift {
+    color: #337ab7;
+}
+.bullet-point {
+    color: #337ab7;
+}
+ul.leistungen-feile a {
+    margin-left: 15px;
+}
