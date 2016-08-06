@@ -26,7 +26,7 @@ strong {
 }
 
 hr {
-    color: #337ab7;
+    color: #4058ab;
 }
 
 /* Homepage */
@@ -43,7 +43,7 @@ hr {
 }
 .container-flex a:hover,
 .container-flex a:active {
-    color: #337ab7;
+    color: #4058ab;
 }
 .container-flex > div {
     flex: 1;
@@ -129,22 +129,22 @@ p {
 .portraet-link {
     margin-left: 37px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: #8a8a8a;
 }
 .leistungen-link {
     margin-left: 6px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: #8a8a8a;
 }
 .referenzen-link {
     margin-left: 6px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: #8a8a8a;
 }
 .kontakt-link {
     margin-left: 37px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: #8a8a8a;
 }
 /*Leistungen Seite*/
 ul.leistungen-feile li{
@@ -157,7 +157,7 @@ ul.leistungen-feile li{
     text-align: left;
 }
 .leistungen{
-    color: #337ab7;
+    color: #4058ab;
 }
 .leistung-bilder {
     width: 650px;
@@ -165,10 +165,10 @@ ul.leistungen-feile li{
 }
 /*Referenzen*/
 .schrift {
-    color: #337ab7;
+    color: #4058ab;
 }
 .bullet-point {
-    color: #337ab7;
+    color: #4058ab;
 }
 ul.leistungen-feile a {
     margin-left: 15px;
