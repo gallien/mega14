@@ -3,10 +3,10 @@ a,
 a:hover,
 a:active {
     text-decoration: none;
-    color: rgb(64,88,171);
 }
-a:focus {
-    color: rgb(64,88,171);
+.active-link a {
+    color: rgb(64,88,171) !important;
+    font-weight: bold;
 }
 
 strong {
