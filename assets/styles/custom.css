@@ -1,14 +1,17 @@
 /* General */
-
-
 a,
 a:hover,
 a:active {
     text-decoration: none;
     color: rgb(64,88,171);
 }
+
+strong {
+    font-family: 'Helvetica Neue LT W01_65 Md',Helvetica,sans-serif;
+}
+
 hr {
-    color: rgb(64,88,171);
+    color: #4058ab;
 }
 
 /* Homepage */
@@ -21,11 +24,11 @@ hr {
 .container-flex a {
     font-size: 20px;
     text-transform: uppercase;
-    color: #bdcfca;
+    color: #8a8a8a;
 }
 .container-flex a:hover,
 .container-flex a:active {
-    color: rgb(64,88,171);
+    color: #4058ab;
 }
 .container-flex > div {
     flex: 1;
@@ -120,22 +123,22 @@ p {
 .portraet-link {
     margin-left: 37px;
     font-size: 1.1em;
-    color: rgb(138,138,138);
+    color: #8a8a8a;
 }
 .leistungen-link {
     margin-left: 6px;
     font-size: 1.1em;
-    color: rgb(138,138,138);
+    color: #8a8a8a;
 }
 .referenzen-link {
     margin-left: 6px;
     font-size: 1.1em;
-    color: rgb(138,138,138);
+    color: #8a8a8a;
 }
 .kontakt-link {
     margin-left: 37px;
     font-size: 1.1em;
-    color: rgb(138,138,138);
+    color: #8a8a8a;
 }
 /*Leistungen Seite*/
 ul.leistungen-feile li{
@@ -155,7 +158,7 @@ ul.leistungen-feile a:hover {
 }
 
 .leistungen{
-    color: rgb(64,88,171);
+    color: #4058ab;
 }
 .leistung-bilder {
     width: 650px;
@@ -163,10 +166,10 @@ ul.leistungen-feile a:hover {
 }
 /*Referenzen*/
 .schrift {
-    color: rgb(64,88,171);
+    color: #4058ab;
 }
 .bullet-point {
-    color: rgb(64,88,171);
+    color: #4058ab;
 }
 ul.leistungen-feile a {
     margin-left: 15px;
