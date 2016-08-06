@@ -1,24 +1,28 @@
 /* General */
 @import url('https://fast.fonts.net/lt/1.css?apiType=css&c=6c3bae9f-7311-4937-9976-50b0f395aba7&fontids=1488878,1488902');
 @font-face {
-    font-family:'Helvetica Neue LT W01_41488878';
+    font-family: 'Helvetica Neue LT W01_41488878';
     src:url('../fonts/1488878/1b950d2a-907a-4888-8056-0d44e8e86338.eot?#iefix');
     src:url('../fonts/1488878/1b950d2a-907a-4888-8056-0d44e8e86338.eot?#iefix') format('eot'),url('../fonts/1488878/3a46542f-f429-4821-9a88-62e3be54a640.woff2') format('woff2'),url('../fonts/1488878/50ac1699-f3d2-47b6-878f-67a368a17c41.woff') format('woff'),url('../fonts/1488878/0be5590f-8353-4ef3-ada1-43ac380859f8.ttf') format('truetype');
 }
 @font-face {
-    font-family:'Helvetica Neue LT W01_65 Md';
+    font-family: 'Helvetica Neue LT W01_65 Md';
     src:url('../fonts/1488902/f95f9fc2-ffda-431c-9d6a-2c3668f5b20b.eot?#iefix');
     src:url('../fonts/1488902/f95f9fc2-ffda-431c-9d6a-2c3668f5b20b.eot?#iefix') format('eot'),url('../fonts/1488902/5b1fbd62-45dc-4433-a7df-a2b24a146411.woff2') format('woff2'),url('../fonts/1488902/050b1948-f226-4d20-a65a-15d8ed031222.woff') format('woff'),url('../fonts/1488902/beb88be6-2a60-46fe-914f-6892b3ae46ce.ttf') format('truetype');
 }
 
 html,body {
-    font-family:'Helvetica Neue LT W01_41488878';
+    font-family: 'Helvetica Neue LT W01_41488878',Helvetica,sans-serif;
 }
 
 a,
 a:hover,
 a:active {
     text-decoration: none;
+}
+
+strong {
+    font-family: 'Helvetica Neue LT W01_65 Md',Helvetica,sans-serif;
 }
 
 hr {
