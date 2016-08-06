@@ -1,12 +1,14 @@
 /* General */
+
+
 a,
 a:hover,
 a:active {
     text-decoration: none;
+    color: rgb(64,88,171);
 }
-
 hr {
-    color: #337ab7;
+    color: rgb(64,88,171);
 }
 
 /* Homepage */
@@ -14,7 +16,7 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 .container-flex a {
     font-size: 20px;
@@ -23,7 +25,7 @@ hr {
 }
 .container-flex a:hover,
 .container-flex a:active {
-    color: #337ab7;
+    color: rgb(64,88,171);
 }
 .container-flex > div {
     flex: 1;
@@ -87,9 +89,18 @@ ul.list-navigation {
 ul.list-navigation a {
     margin-right: 10px;
     text-transform: uppercase;
-    color: #BDCFCA;
+    color: rgb(138,138,138);
 }
-li {
+ul.list-navigation li:hover {
+    background-image: url(../images/Pfeil_Folgeseite_links_blau.svg);
+}
+ul.list-navigation a:hover {
+    color: rgb(64,88,171);
+}
+/*ul.list-navigation a:active {*/
+    /*color: rgb(64,88,171);*/
+/*}*/
+ul.list-navigation li {
     background-image: url(../images/Pfeil_Folgeseite_links_grau.svg);
     background-repeat: no-repeat;
     background-position: 100% .25em;
@@ -109,26 +120,26 @@ p {
 .portraet-link {
     margin-left: 37px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: rgb(138,138,138);
 }
 .leistungen-link {
     margin-left: 6px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: rgb(138,138,138);
 }
 .referenzen-link {
     margin-left: 6px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: rgb(138,138,138);
 }
 .kontakt-link {
     margin-left: 37px;
     font-size: 1.1em;
-    color: #BDCFCA;
+    color: rgb(138,138,138);
 }
 /*Leistungen Seite*/
 ul.leistungen-feile li{
-    background-image: url(../images/Pfeil_Folgeseite_rechts_blau.svg);
+    background-image: url(../images/Pfeil_Folgeseite_rechts_grau.svg);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 11px 15px;
@@ -136,8 +147,15 @@ ul.leistungen-feile li{
     margin-bottom: 25px;
     text-align: left;
 }
+ul.leistungen-feile li:hover {
+    background-image: url(../images/Pfeil_Folgeseite_rechts_blau.svg);
+}
+ul.leistungen-feile a:hover {
+    color: rgb(64,88,171);
+}
+
 .leistungen{
-    color: #337ab7;
+    color: rgb(64,88,171);
 }
 .leistung-bilder {
     width: 650px;
@@ -145,11 +163,12 @@ ul.leistungen-feile li{
 }
 /*Referenzen*/
 .schrift {
-    color: #337ab7;
+    color: rgb(64,88,171);
 }
 .bullet-point {
-    color: #337ab7;
+    color: rgb(64,88,171);
 }
 ul.leistungen-feile a {
     margin-left: 15px;
+    color: rgb(138,138,138);
 }
