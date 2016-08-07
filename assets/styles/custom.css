@@ -20,10 +20,6 @@ a:hover,
 a:active {
     text-decoration: none;
 }
-.active-link a {
-    color: rgb(64,88,171) !important;
-    font-weight: bold;
-}
 
 strong {
     font-family: 'Helvetica Neue LT W01_65 Md',Helvetica,sans-serif;
@@ -111,13 +107,17 @@ ul.list-navigation {
 ul.list-navigation a {
     margin-right: 10px;
     text-transform: uppercase;
-    color: rgb(138,138,138);
+    color: #8a8a8a;
+}
+ul.list-navigation li.active a {
+    color: #4058ab;
+    font-weight: bold;
 }
 ul.list-navigation li:hover {
     background-image: url(../images/Pfeil_Folgeseite_links_blau.svg);
 }
 ul.list-navigation a:hover {
-    color: rgb(64,88,171);
+    color: #4058ab;
 }
 /*ul.list-navigation a:active {*/
     /*color: rgb(64,88,171);*/
@@ -173,7 +173,7 @@ ul.leistungen-feile li:hover {
     background-image: url(../images/Pfeil_Folgeseite_rechts_blau.svg);
 }
 ul.leistungen-feile a:hover {
-    color: rgb(64,88,171);
+    color: #4058ab;
 }
 
 .leistungen{
@@ -192,7 +192,7 @@ ul.leistungen-feile a:hover {
 }
 ul.leistungen-feile a {
     margin-left: 15px;
-    color: rgb(138,138,138);
+    color: #8a8a8a;
 }
 
 
