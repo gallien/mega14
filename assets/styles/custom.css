@@ -13,12 +13,15 @@
 
 html,body {
     font-family: 'Helvetica Neue LT W01_41488878',Helvetica,sans-serif;
+    color: #000000;
 }
 
 a,
 a:hover,
-a:active {
+a:active,
+a:focus {
     text-decoration: none;
+    color: #8a8a8a;
 }
 
 strong {
@@ -42,7 +45,8 @@ hr {
     color: #8a8a8a;
 }
 .container-flex a:hover,
-.container-flex a:active {
+.container-flex a:active,
+.container-flex a:focus {
     color: #4058ab;
 }
 .container-flex > div {
@@ -119,9 +123,7 @@ ul.list-navigation li:hover {
 ul.list-navigation a:hover {
     color: #4058ab;
 }
-/*ul.list-navigation a:active {*/
-    /*color: rgb(64,88,171);*/
-/*}*/
+
 ul.list-navigation li {
     background-image: url(../images/Pfeil_Folgeseite_links_grau.svg);
     background-repeat: no-repeat;
