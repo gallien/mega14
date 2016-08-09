@@ -18,6 +18,10 @@ html,body {
     color: #000000;
 }
 
+body {
+    margin-bottom: 20px;
+}
+
 a,
 a:hover,
 a:active,
@@ -25,7 +29,8 @@ a:focus {
     text-decoration: none;
     color: #8a8a8a;
 }
-h4 {
+h1, h2, h3, h4 {
+    margin-top: 0;
     color: #4058ab;
 }
 p {
@@ -40,6 +45,25 @@ strong {
 }
 
 hr {
+    color: #4058ab;
+}
+
+ul.list-arrow li{
+    background: url(../images/arrow-right-gray.svg) no-repeat left 0.25em;
+    background-size: 11px 15px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+ul.list-arrow li:hover {
+    background-image: url(../images/arrow-right-blue.svg);
+}
+ul.list-arrow a {
+    margin-left: 15px;
+    color: #8a8a8a;
+}
+ul.list-arrow.active a,
+ul.list-arrow a:hover {
     color: #4058ab;
 }
 
@@ -114,15 +138,30 @@ hr {
 .container-flex .logo {
     margin: 0 auto;
     height: 100%;
+    max-height: 100%;
     width: 100%;
 }
 
 /* Navigation */
+#header {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #4058ab;
+}
 ul.list-navigation {
-    margin-top: 10px;
     text-align: right;
 }
-ul.list-navigation a {
+ul.list-navigation li {
+    padding-right: 10px;
+    margin-bottom: 15px;
+    background: url(../images/arrow-left-gray.svg) no-repeat 100% .25em;
+    background-size: 11px 15px;
+}
+ul.list-navigation li.active,
+ul.list-navigation li:hover {
+    background-image: url(../images/arrow-left-blue.svg);
+}
+ul.list-navigation li a {
     margin-right: 10px;
     text-transform: uppercase;
     color: #8a8a8a;
@@ -131,91 +170,62 @@ ul.list-navigation li.active a {
     color: #4058ab;
     font-weight: bold;
 }
-ul.list-navigation li:hover {
-    background-image: url(../images/Pfeil_Folgeseite_links_blau.svg);
-}
 ul.list-navigation a:hover {
     color: #4058ab;
 }
-
-ul.list-navigation li {
-    background-image: url(../images/Pfeil_Folgeseite_links_grau.svg);
-    background-repeat: no-repeat;
-    background-position: 100% .25em;
-    background-size: 11px 15px;
-    padding-right: .6em;
-    margin-bottom: 25px;
+.logo {
+    margin-left: 15px;
+    max-height: 140px;
 }
 
+/* Portrait */
 h4.partner {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 150%;
     color: #8a8a8a;
 }
-
 .list-partner {
     color: #4058ab;
 }
-/*Leistungen Seite*/
-ul.list-arrow li{
-    background-image: url(../images/Pfeil_Folgeseite_rechts_grau.svg);
-    background-repeat: no-repeat;
-    background-position: left top;
-    background-size: 11px 15px;
-    padding-left: .6em;
-    margin-bottom: 25px;
-    text-align: left;
-}
-ul.list-arrow li:hover {
-    background-image: url(../images/Pfeil_Folgeseite_rechts_blau.svg);
-}
-ul.list-arrow a:hover {
-    color: #4058ab;
-}
 
-.leistungen{
-    color: #4058ab;
+/* Services */
+body.services h4 {
+    margin-left: 25px;
 }
-.leistung-bilder {
-    width: 650px;
-    height: 440px;
+body.services li.more {
+    margin-top: 30px;
 }
-
-/*Slider*/
-
-figure div {
+body.services figure div {
     height: 500px;
 }
-.carousel-control.left {
-    background-image: none;
-}
-.carousel-control.right {
-    background-image: none;
-}
-figure img {
+body.services figure img {
     max-height: 500px;
 }
-/*Referenzen*/
+body.services .carousel-control.left {
+    background-image: none;
+}
+body.services .carousel-control.right {
+    background-image: none;
+}
 
+/* Referenzen */
 body.references h4 {
     margin-bottom: 0;
 }
-.bullet-point {
+body.references h4 > span {
     color: #4058ab;
 }
-ul.list-arrow a {
-    margin-left: 15px;
-    color: #8a8a8a;
-}
-
-.row .col-md-4 ul {
+body.references ul {
     margin-left: 23px;
 }
 
-/*Kontakt*/
-
+/* Kontakt */
 .list-contact li {
     margin-bottom: 10px;
 }
-/*AVG*/
+
+/* AVG */
 body.terms p {
     margin-bottom: 0;
 }
@@ -223,5 +233,3 @@ body.terms h4 {
     margin-top: 15px;
     margin-bottom: 0;
 }
-
-
