@@ -85,12 +85,13 @@ ul.list-arrow a:hover {
     color: #4058ab;
 }
 .container-flex > div {
-     flex: 1;
-     display: flex;
-     flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    vertical-align: bottom;
 }
-.container-flex > div:nth-child(2) {
-   flex-grow: 1;
+.container-flex > div:nth-of-type(1),
+.container-flex > div:nth-of-type(3){
+    flex-grow: 2;
 }
 .container-flex > div > div{
     flex: 1;
@@ -98,6 +99,7 @@ ul.list-arrow a:hover {
     flex-direction: column;
 }
 .container-flex .col-arrow-top {
+    display: flex;
     padding-bottom: 20px;
     align-self: flex-end;
     justify-content: center;
@@ -117,6 +119,7 @@ ul.list-arrow a:hover {
     margin-right: 10px;
 }
 .container-flex .col-arrow-bottom {
+    display: flex;
     padding-top: 20px;
     align-self: flex-start;
     justify-content: center;
