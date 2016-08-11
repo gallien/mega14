@@ -29,8 +29,24 @@ a:focus {
     text-decoration: none;
     color: #8a8a8a;
 }
+a.active,
+a:hover {
+    color: #4058ab;
+}
+
+a.arrow-right {
+    padding-left: 20px;
+    background: url(../images/arrow-right-gray.svg) no-repeat 0 3px;
+    background-size: 11px 15px;
+}
+a.arrow-right.active,
+a.arrow-right:hover {
+    background-image: url(../images/arrow-right-blue.svg);
+}
 h1, h2, h3, h4 {
     margin-top: 0;
+    font-size: 16px;
+    line-height: 150%;
     color: #4058ab;
 }
 p {
@@ -42,6 +58,7 @@ em {
 }
 strong {
     font-family: 'Helvetica Neue LT W01_65 Md',Helvetica,sans-serif;
+    font-weight: normal;
 }
 
 hr {
@@ -55,6 +72,7 @@ ul.list-arrow li{
     margin-bottom: 10px;
     text-align: left;
 }
+ul.list-arrow li.active,
 ul.list-arrow li:hover {
     background-image: url(../images/arrow-right-blue.svg);
 }
@@ -114,6 +132,7 @@ ul.list-arrow a:hover {
     padding-left: 20px;
     align-self: center;
     justify-content: flex-start;
+    flex-grow: 2;
 }
 .container-flex .col-arrow-right img {
     margin-right: 10px;
@@ -134,13 +153,14 @@ ul.list-arrow a:hover {
     padding-right: 20px;
     align-self: center;
     justify-content: flex-end;
+    flex-grow: 2;
 }
 .container-flex .col-arrow-left img {
     margin-left: 10px;
 }
 .container-flex .logo {
     margin: 0 auto;
-    height: 100%;
+    height: auto;
     max-height: 100%;
     width: 100%;
 }
@@ -152,11 +172,12 @@ ul.list-arrow a:hover {
     border-bottom: 1px solid #4058ab;
 }
 ul.list-navigation {
+    margin-top: 8px;
     text-align: right;
 }
 ul.list-navigation li {
+    margin-bottom: 10px;
     padding-right: 10px;
-    margin-bottom: 15px;
     background: url(../images/arrow-left-gray.svg) no-repeat 100% .25em;
     background-size: 11px 15px;
 }
@@ -171,7 +192,6 @@ ul.list-navigation li a {
 }
 ul.list-navigation li.active a {
     color: #4058ab;
-    font-weight: bold;
 }
 ul.list-navigation a:hover {
     color: #4058ab;
@@ -184,17 +204,14 @@ ul.list-navigation a:hover {
 /* Portrait */
 h4.partner {
     margin-top: 0;
-    font-size: 16px;
-    line-height: 150%;
-    color: #8a8a8a;
-}
-.list-partner {
-    color: #4058ab;
 }
 
 /* Services */
 body.services h4 {
     margin-left: 25px;
+}
+body.services li.active a {
+    color: #4058ab;
 }
 body.services li.more {
     margin-top: 30px;
@@ -218,9 +235,10 @@ body.references h4 {
 }
 body.references h4 > span {
     color: #4058ab;
+    font-size: 13px;
 }
 body.references ul {
-    margin-left: 23px;
+    margin-left: 18px;
 }
 
 /* Kontakt */
