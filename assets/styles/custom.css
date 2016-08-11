@@ -197,6 +197,7 @@ ul.list-navigation a:hover {
     color: #4058ab;
 }
 .logo {
+    margin-right: 0;
     margin-left: 15px;
     max-height: 140px;
 }
@@ -207,14 +208,20 @@ h4.partner {
 }
 
 /* Services */
+body.services img.logo {
+    margin-right: 0;
+}
 body.services h4 {
     margin-left: 25px;
 }
+body.services .level_1 {
+    font-family: 'Helvetica Neue LT W01_65 Md',Helvetica,sans-serif;
+}
+body.services li.level_1 {
+    margin-top: 30px;
+}
 body.services li.active a {
     color: #4058ab;
-}
-body.services li.more {
-    margin-top: 30px;
 }
 body.services figure div {
     height: 500px;
@@ -253,4 +260,23 @@ body.terms p {
 body.terms h4 {
     margin-top: 15px;
     margin-bottom: 0;
+}
+
+
+@media (min-width: 1200px) {
+    .logo {
+        margin-right: 16.6667%;
+    }
+}
+
+@media (max-width: 993px) {
+    .logo {
+        margin-right: 12.6667%;
+    }
+}
+
+@media (max-width: 769px) {
+    .logo {
+        margin-right: 0;
+    }
 }
