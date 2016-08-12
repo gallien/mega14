@@ -68,7 +68,7 @@ hr {
 ul.list-arrow li{
     background: url(../images/arrow-right-gray.svg) no-repeat left 0.25em;
     background-size: 11px 15px;
-    padding-left: 10px;
+    padding-left: 25px;
     margin-bottom: 10px;
     text-align: left;
 }
@@ -76,11 +76,12 @@ ul.list-arrow li.active,
 ul.list-arrow li:hover {
     background-image: url(../images/arrow-right-blue.svg);
 }
-ul.list-arrow a {
-    margin-left: 15px;
+ul.list-arrow a,
+ul.list-arrow span {
     color: #8a8a8a;
 }
-ul.list-arrow.active a,
+ul.list-arrow li.active a,
+ul.list-arrow li.active span,
 ul.list-arrow a:hover {
     color: #4058ab;
 }
@@ -211,8 +212,8 @@ h4.partner {
 body.services img.logo {
     margin-right: 0;
 }
-body.services h4 {
-    margin-left: 25px;
+body.services ul > li:nth-child(1) {
+    margin-top: 0;
 }
 body.services .level_1 {
     font-family: 'Helvetica Neue LT W01_65 Md',Helvetica,sans-serif;
