@@ -124,5 +124,18 @@
 </div>
 <script type="text/javascript" src="vendor/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('ul.list-arrow li').hover(function() {
+            if (! $(this).hasClass('level_1')) {
+                $('ul.list-arrow li:nth-child(1)').addClass('hover');
+            }
+        }, function() {
+            if (! $(this).hasClass('level_1')) {
+                $('ul.list-arrow li:nth-child(1)').removeClass('hover');
+            }
+        });
+    });
+</script>
 </body>
 </html>

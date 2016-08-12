@@ -73,6 +73,7 @@ ul.list-arrow li{
     text-align: left;
 }
 ul.list-arrow li.active,
+ul.list-arrow li.hover,
 ul.list-arrow li:hover {
     background-image: url(../images/arrow-right-blue.svg);
 }
