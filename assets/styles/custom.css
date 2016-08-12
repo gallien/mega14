@@ -64,6 +64,9 @@ strong {
 hr {
     color: #4058ab;
 }
+figcaption {
+    font-size: 80%;
+}
 
 ul.list-arrow li{
     background: url(../images/arrow-right-gray.svg) no-repeat left 0.25em;
