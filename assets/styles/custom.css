@@ -86,13 +86,13 @@ ul.list-arrow a,
 ul.list-arrow span {
     color: #8a8a8a;
 }
-ul.list-arrow li.active a,
-ul.list-arrow li.active span,
-ul.list-arrow a:hover {
+ul.list-arrow > li.active > a,
+ul.list-arrow > li.active > span,
+ul.list-arrow > li > a:hover {
     color: #4058ab;
 }
 ul.list-arrow > li > ul {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 /* Homepage */
@@ -224,14 +224,17 @@ body.services img.logo {
 body.services ul > li:nth-child(1) {
     margin-top: 0;
 }
-body.services .level_1 {
+body.services ul > .level_1 {
     font-family: 'Helvetica Neue LT W01_65 Md',Helvetica,sans-serif;
 }
 body.services li.level_1 {
     margin-top: 30px;
 }
-body.services li.active a {
+body.services ul > li.active > a {
     color: #4058ab;
+}
+body.services ul > .level_1 > ul {
+    font-family: 'Helvetica Neue LT W01_41488878',Helvetica,sans-serif;
 }
 body.services .carousel-control.left {
     background-image: none;
