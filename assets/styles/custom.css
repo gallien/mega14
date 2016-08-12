@@ -70,6 +70,30 @@ figcaption {
     line-height: 15px;
     margin-bottom: 22px;
 }
+.carousel-indicators {
+    margin-left: 0;
+    padding-left: 0;
+    position: absolute;
+    right: 0;
+    left: auto;
+    bottom: -45px;
+    width: auto;
+    text-align: center;
+    z-index: 15;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #4058ab;
+    border-radius: 15px;
+}
+.carousel-indicators .active {
+    width: 17px;
+    height: 17px;
+}
+.carousel-indicators .active {
+    background-color: #4058ab;
+}
 
 ul.list-arrow li {
     background: url(../images/arrow-right-gray.svg) no-repeat left 0.25em;
