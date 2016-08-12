@@ -70,7 +70,7 @@ figcaption {
     margin-bottom: 25px;
 }
 
-ul.list-arrow li{
+ul.list-arrow li {
     background: url(../images/arrow-right-gray.svg) no-repeat left 0.25em;
     background-size: 11px 15px;
     padding-left: 25px;
@@ -90,6 +90,9 @@ ul.list-arrow li.active a,
 ul.list-arrow li.active span,
 ul.list-arrow a:hover {
     color: #4058ab;
+}
+ul.list-arrow > li > ul {
+    margin-top: 25px;
 }
 
 /* Homepage */
