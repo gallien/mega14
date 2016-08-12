@@ -66,6 +66,7 @@ hr {
 }
 figcaption {
     font-size: 80%;
+    line-height: 100%;
 }
 
 ul.list-arrow li{
