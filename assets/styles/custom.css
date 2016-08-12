@@ -229,12 +229,6 @@ body.services li.level_1 {
 body.services li.active a {
     color: #4058ab;
 }
-body.services figure div {
-    height: 500px;
-}
-body.services figure img {
-    max-height: 500px;
-}
 body.services .carousel-control.left {
     background-image: none;
 }
