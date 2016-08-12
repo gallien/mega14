@@ -65,9 +65,10 @@ hr {
     color: #4058ab;
 }
 figcaption {
-    font-size: 80%;
-    line-height: 120%;
-    margin-bottom: 25px;
+    margin-top: 3px;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 20px;
 }
 
 ul.list-arrow li {
