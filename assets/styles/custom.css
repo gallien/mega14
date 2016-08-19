@@ -18,10 +18,6 @@ html,body {
     color: #000000;
 }
 
-body {
-    margin-bottom: 20px;
-}
-
 a,
 a:hover,
 a:active,
@@ -33,7 +29,15 @@ a.active,
 a:hover {
     color: #4058ab;
 }
-
+a.arrow-left {
+    padding-left: 20px;
+    background: url(../images/arrow-left-gray.svg) no-repeat 0 3px;
+    background-size: 11px 15px;
+}
+a.arrow-left.active,
+a.arrow-left:hover {
+    background-image: url(../images/arrow-left-blue.svg);
+}
 a.arrow-right {
     padding-left: 20px;
     background: url(../images/arrow-right-gray.svg) no-repeat 0 3px;
@@ -69,6 +73,33 @@ figcaption {
     font-size: 13px;
     line-height: 15px;
     margin-bottom: 22px;
+}
+.carousel {
+    margin-bottom: 50px;
+}
+.carousel-control {
+    width: 11px;
+    height: 20px;
+    top: auto;
+    bottom: -30px;
+}
+.carousel-control.left {
+    background: url(../images/arrow-left-gray.svg) no-repeat 0 3px;
+    background-size: 11px 15px;
+}
+.carousel-control.left.active,
+.carousel-control.left:hover {
+    background-image: url(../images/arrow-left-blue.svg);
+}
+.carousel-control.right {
+    left: 30px;
+    right: 0;
+    background: url(../images/arrow-right-gray.svg) no-repeat 0 3px;
+    background-size: 11px 15px;
+}
+.carousel-control.right.active,
+.carousel-control.right:hover {
+    background-image: url(../images/arrow-right-blue.svg);
 }
 .carousel-indicators {
     margin-left: 0;
@@ -260,12 +291,6 @@ body.services ul > li.active > a {
 }
 body.services ul > .level_1 > ul {
     font-family: 'Helvetica Neue LT W01_41488878',Helvetica,sans-serif;
-}
-body.services .carousel-control.left {
-    background-image: none;
-}
-body.services .carousel-control.right {
-    background-image: none;
 }
 
 /* Referenzen */
