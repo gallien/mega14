@@ -1,0 +1,22 @@
+{
+  "name": "mega14",
+  "homepage": "https://github.com/gallien/mega14.github.io",
+  "authors": [
+    "Andreas Gallien <gallien@seleos.de>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
