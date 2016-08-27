@@ -107,20 +107,24 @@ figcaption {
     position: absolute;
     right: 0;
     left: auto;
-    bottom: -45px;
+    bottom: -38px;
     width: auto;
     text-align: center;
     z-index: 15;
+    white-space: nowrap;
 }
 .carousel-indicators li {
-    width: 15px;
-    height: 15px;
+    margin: 0 0 0 -2px;
+    width: 8px;
+    height: 8px;
     border: 1px solid #4058ab;
-    border-radius: 15px;
+    border-radius: 8px;
 }
 .carousel-indicators .active {
-    width: 17px;
-    height: 17px;
+    margin: 0 0 0 -2px;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
 }
 .carousel-indicators .active {
     background-color: #4058ab;
@@ -144,6 +148,8 @@ ul.list-arrow span {
 }
 ul.list-arrow > li.active > a,
 ul.list-arrow > li.active > span,
+ul.list-arrow > li.hover > a,
+ul.list-arrow > li.hover > span,
 ul.list-arrow > li > a:hover {
     color: #4058ab;
 }
