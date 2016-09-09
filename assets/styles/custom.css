@@ -279,8 +279,11 @@ ul.list-navigation li.active a {
 ul.list-navigation a:hover {
     color: #4058ab;
 }
-.logo {
-    padding-right: 0;
+header a {
+    position: relative;
+}
+img.logo {
+    margin-right: 0;
     margin-left: 15px;
     max-height: 140px;
 }
@@ -295,7 +298,7 @@ body.services {
     margin-bottom: 30px;
 }
 body.services img.logo {
-    padding-right: 0;
+    margin-right: 0;
 }
 body.services ul > li:nth-child(1) {
     margin-top: 0;
@@ -341,19 +344,19 @@ body.terms h4 {
 
 
 @media (min-width: 1200px) {
-    .logo {
-        padding-right: 16.6667%;
+    img.logo {
+        margin-right: 30px;
     }
 }
 
 @media (max-width: 993px) {
-    .logo {
-        padding-right: 12.6667%;
+    img.logo {
+        margin-right: 22px;
     }
 }
 
 @media (max-width: 769px) {
-    .logo {
-        padding-right: 0;
+    img.logo {
+        margin-right: 0;
     }
 }
