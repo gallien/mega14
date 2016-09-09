@@ -279,7 +279,7 @@ ul.list-navigation a:hover {
     color: #4058ab;
 }
 .logo {
-    margin-right: 0;
+    padding-right: 0;
     margin-left: 15px;
     max-height: 140px;
 }
@@ -294,7 +294,7 @@ body.services {
     margin-bottom: 30px;
 }
 body.services img.logo {
-    margin-right: 0;
+    padding-right: 0;
 }
 body.services ul > li:nth-child(1) {
     margin-top: 0;
@@ -353,6 +353,6 @@ body.terms h4 {
 
 @media (max-width: 769px) {
     .logo {
-        margin-right: 0;
+        padding-right: 0;
     }
 }
