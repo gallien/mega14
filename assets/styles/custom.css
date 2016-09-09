@@ -77,6 +77,11 @@ figcaption {
 .carousel {
     margin-bottom: 50px;
 }
+.carousel-inner > .item > figure img {
+    display: block;
+    height: auto;
+    max-width: 99.9%;
+}
 .carousel-control {
     width: 11px;
     height: 20px;
@@ -336,13 +341,13 @@ body.terms h4 {
 
 @media (min-width: 1200px) {
     .logo {
-        margin-right: 16.6667%;
+        padding-right: 16.6667%;
     }
 }
 
 @media (max-width: 993px) {
     .logo {
-        margin-right: 12.6667%;
+        padding-right: 12.6667%;
     }
 }
 
