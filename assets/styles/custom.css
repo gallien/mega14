@@ -242,6 +242,7 @@ ul.list-arrow > li > ul {
 }
 .container-flex .logo {
     margin: 0 auto;
+    padding: 0;
     height: auto;
     max-height: 100%;
     width: 100%;
