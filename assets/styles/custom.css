@@ -285,6 +285,7 @@ header a {
 img.logo {
     margin-right: 0;
     margin-left: 15px;
+    max-width: 137px;
     max-height: 140px;
 }
 
